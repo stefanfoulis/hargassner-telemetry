@@ -1,0 +1,6 @@
+ipython
+ipdb
+
+click
+paho-mqtt
+terminaltables

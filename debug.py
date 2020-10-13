@@ -4,15 +4,20 @@ if __name__ == "__main__":
     heizkessel_host = os.environ["HEIZKESSEL_HOST"]
     mqtt_host = os.environ["MQTT_HOST"]
     mqtt_api_key = os.environ["MQTT_API_KEY"]
-    submit_delay_s = int(os.environ.get("SUBMIT_DELAY_S", "60"))
+    mqtt_user = os.environ["MQTT_USER"]
+    mqtt_topic = os.environ["MQTT_TOPIC"]
+    # submit_min_delay_s = int(os.environ.get("SUBMIT_DELAY_S", "60"))
+    # submit_max_delay_s = int(os.environ.get("SUBMIT_DELAY_S", "60"))
 
     print(os.environ)
 
-    print(f"reading from telnet at {heizkessel_host} and sending to {mqtt_host} with a delay of {submit_delay_s}s")
+    print(f"reading from telnet at {heizkessel_host} and sending to {mqtt_host} on topic {mqtt_topic}.")
+
 
     from_telnet_to_tb.run(
         heizkessel_host=heizkessel_host,
         mqtt_host=mqtt_host,
         mqtt_api_key=mqtt_api_key,
-        submit_delay_s=submit_delay_s
+        mqtt_user=mqtt_user,
+        mqtt_topic=mqtt_topic,
     )

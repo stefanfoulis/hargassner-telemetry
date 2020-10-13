@@ -5,7 +5,7 @@ import json
 def extract_daqprj_line(path):
     with open(path, "rb") as fobj:
         for line in fobj.readlines():
-            line = line.decode("latin-1")
+            line = line.decode("iso-8859-1")
             if line.startswith("<DAQPRJ>"):
                 return line
 

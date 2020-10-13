@@ -5,8 +5,11 @@ from . import telnet, submit
 import json
 
 
-def run(heizkessel_host, mqtt_host, mqtt_api_key, submit_delay_s=60):
+def run(heizkessel_host, mqtt_host, mqtt_api_key, mqtt_user, mqtt_topic):
     print(f"initiating telnet stream...")
+    report_every = datetime.timedelta(seconds=5)
+    report_changes_immediatly = True
+
     stream = telnet.connect(host=heizkessel_host)
     prev_data = {}
     last_submit = None
@@ -17,13 +20,15 @@ def run(heizkessel_host, mqtt_host, mqtt_api_key, submit_delay_s=60):
         if changed:
             print(json.dumps(changed, indent=2, sort_keys=True))
         now = datetime.datetime.now()
-        if last_submit is None or last_submit + datetime.timedelta(seconds=submit_delay_s) < now:
-            submit.report_data(data, mqtt_host=mqtt_host, mqtt_api_key=mqtt_api_key)
-            last_submit = now
-            print("submit")
-        else:
+        do_report_because_data_changed = report_changes_immediatly and changed
+        do_report_because_time = last_submit is None or last_submit + report_every < now
+        if not (do_report_because_data_changed or do_report_because_time):
             print(f"skip (last submit: {last_submit}")
-        # print(json.dumps(data, indent=2, sort_keys=True))
+            continue
+
+        print("submit")
+        submit.report_data(measured_at=now, data=data, mqtt_host=mqtt_host, mqtt_api_key=mqtt_api_key, mqtt_user=mqtt_user, mqtt_topic=mqtt_topic)
+        last_submit = now
         prev_data = deepcopy(data)
 
 

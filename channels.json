@@ -1,0 +1,1178 @@
+{
+  "0": {
+    "id": 0,
+    "name": "TK",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "1": {
+    "id": 1,
+    "name": "TRG",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "2": {
+    "id": 2,
+    "name": "O2",
+    "type": "analog",
+    "unit": "%"
+  },
+  "3": {
+    "id": 3,
+    "name": "TPo",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "4": {
+    "id": 4,
+    "name": "TPm",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "5": {
+    "id": 5,
+    "name": "TPu",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "6": {
+    "id": 6,
+    "name": "Taus",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "7": {
+    "id": 7,
+    "name": "TVL_1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "8": {
+    "id": 8,
+    "name": "TVL_2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "9": {
+    "id": 9,
+    "name": "TR1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "10": {
+    "id": 10,
+    "name": "TR2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "11": {
+    "id": 11,
+    "name": "TB1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "12": {
+    "id": 12,
+    "name": "TVLs_1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "13": {
+    "id": 13,
+    "name": "TVLs_2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "14": {
+    "id": 14,
+    "name": "TRs_1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "15": {
+    "id": 15,
+    "name": "TRs_2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "16": {
+    "id": 16,
+    "name": "Prim.ist",
+    "type": "analog",
+    "unit": "%"
+  },
+  "17": {
+    "id": 17,
+    "name": "Prim.soll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "18": {
+    "id": 18,
+    "name": "Sek.ist",
+    "type": "analog",
+    "unit": "%"
+  },
+  "19": {
+    "id": 19,
+    "name": "Sek.soll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "20": {
+    "id": 20,
+    "name": "SZsoll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "21": {
+    "id": 21,
+    "name": "RLP",
+    "type": "analog",
+    "unit": "%"
+  },
+  "22": {
+    "id": 22,
+    "name": "ZK",
+    "type": "analog",
+    "unit": ""
+  },
+  "23": {
+    "id": 23,
+    "name": "O2_soll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "24": {
+    "id": 24,
+    "name": "U_Lambda",
+    "type": "analog",
+    "unit": "mV"
+  },
+  "25": {
+    "id": 25,
+    "name": "TRG_soll",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "26": {
+    "id": 26,
+    "name": "TRG_max",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "27": {
+    "id": 27,
+    "name": "TKsoll",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "28": {
+    "id": 28,
+    "name": "TVL_3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "29": {
+    "id": 29,
+    "name": "TVL_4",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "30": {
+    "id": 30,
+    "name": "TR3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "31": {
+    "id": 31,
+    "name": "TR4",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "32": {
+    "id": 32,
+    "name": "TB2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "33": {
+    "id": 33,
+    "name": "TVLs_3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "34": {
+    "id": 34,
+    "name": "TVLs_4",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "35": {
+    "id": 35,
+    "name": "TRs_3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "36": {
+    "id": 36,
+    "name": "TRs_4",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "37": {
+    "id": 37,
+    "name": "TVL_5",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "38": {
+    "id": 38,
+    "name": "TVL_6",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "39": {
+    "id": 39,
+    "name": "TR5",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "40": {
+    "id": 40,
+    "name": "TR6",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "41": {
+    "id": 41,
+    "name": "TB3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "42": {
+    "id": 42,
+    "name": "TVLs_5",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "43": {
+    "id": 43,
+    "name": "TVLs_6",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "44": {
+    "id": 44,
+    "name": "TRs_5",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "45": {
+    "id": 45,
+    "name": "TRs_6",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "46": {
+    "id": 46,
+    "name": "SZist",
+    "type": "analog",
+    "unit": "%"
+  },
+  "47": {
+    "id": 47,
+    "name": "Tplat",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "48": {
+    "id": 48,
+    "name": "TRL",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "49": {
+    "id": 49,
+    "name": "PufLad",
+    "type": "analog",
+    "unit": "%"
+  },
+  "50": {
+    "id": 50,
+    "name": "null0",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "51": {
+    "id": 51,
+    "name": "null1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "52": {
+    "id": 52,
+    "name": "null2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "53": {
+    "id": 53,
+    "name": "MWZ Vorl.",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "54": {
+    "id": 54,
+    "name": "MWZ Rueckl.",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "55": {
+    "id": 55,
+    "name": "MWZ Durchf.",
+    "type": "analog",
+    "unit": ""
+  },
+  "56": {
+    "id": 56,
+    "name": "MWZ Leist.",
+    "type": "analog",
+    "unit": "KW"
+  },
+  "57": {
+    "id": 57,
+    "name": "TFW",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "58": {
+    "id": 58,
+    "name": "TRLsoll",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "59": {
+    "id": 59,
+    "name": "TA Gem.",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "60": {
+    "id": 60,
+    "name": "VFS Flow",
+    "type": "analog",
+    "unit": "l/min"
+  },
+  "61": {
+    "id": 61,
+    "name": "VFS Temp",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "62": {
+    "id": 62,
+    "name": "IO32 VL",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "63": {
+    "id": 63,
+    "name": "IO32 521",
+    "type": "analog",
+    "unit": "Pa"
+  },
+  "64": {
+    "id": 64,
+    "name": "IO32 522",
+    "type": "analog",
+    "unit": "Pa"
+  },
+  "65": {
+    "id": 65,
+    "name": "IO32 509",
+    "type": "analog",
+    "unit": "Pa"
+  },
+  "66": {
+    "id": 66,
+    "name": "IO32 510",
+    "type": "analog",
+    "unit": "Pa"
+  },
+  "67": {
+    "id": 67,
+    "name": "TBA",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "68": {
+    "id": 68,
+    "name": "TVLs_A",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "69": {
+    "id": 69,
+    "name": "TRs_A",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "70": {
+    "id": 70,
+    "name": "TRA",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "71": {
+    "id": 71,
+    "name": "TVL_A",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "72": {
+    "id": 72,
+    "name": "FRA Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "73": {
+    "id": 73,
+    "name": "FR1 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "74": {
+    "id": 74,
+    "name": "FR2 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "75": {
+    "id": 75,
+    "name": "FR3 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "76": {
+    "id": 76,
+    "name": "FR4 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "77": {
+    "id": 77,
+    "name": "FR5 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "78": {
+    "id": 78,
+    "name": "FR6 Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "79": {
+    "id": 79,
+    "name": "TRA_A",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "80": {
+    "id": 80,
+    "name": "TRA_1",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "81": {
+    "id": 81,
+    "name": "TRA_2",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "82": {
+    "id": 82,
+    "name": "TRA_3",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "83": {
+    "id": 83,
+    "name": "TRA_4",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "84": {
+    "id": 84,
+    "name": "TRA_5",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "85": {
+    "id": 85,
+    "name": "TRA_6",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "86": {
+    "id": 86,
+    "name": "PK_TK",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "87": {
+    "id": 87,
+    "name": "PK_ZK",
+    "type": "analog",
+    "unit": ""
+  },
+  "88": {
+    "id": 88,
+    "name": "PK_O2",
+    "type": "analog",
+    "unit": "%"
+  },
+  "89": {
+    "id": 89,
+    "name": "PK_O2soll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "90": {
+    "id": 90,
+    "name": "DUMMY_1",
+    "type": "analog",
+    "unit": " "
+  },
+  "91": {
+    "id": 91,
+    "name": "PK_TKsoll",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "92": {
+    "id": 92,
+    "name": "PK_TRG",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "93": {
+    "id": 93,
+    "name": "PK_TRL",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "94": {
+    "id": 94,
+    "name": "PK_TRLsoll",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "95": {
+    "id": 95,
+    "name": "PK_RLP",
+    "type": "analog",
+    "unit": "%"
+  },
+  "96": {
+    "id": 96,
+    "name": "PK_Tplat",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "97": {
+    "id": 97,
+    "name": "PK_SZs",
+    "type": "analog",
+    "unit": "%"
+  },
+  "98": {
+    "id": 98,
+    "name": "PK_SZ",
+    "type": "analog",
+    "unit": "%"
+  },
+  "99": {
+    "id": 99,
+    "name": "PK_KeBrstScale",
+    "type": "analog",
+    "unit": "%"
+  },
+  "100": {
+    "id": 100,
+    "name": "PK_ESRegler",
+    "type": "analog",
+    "unit": "%"
+  },
+  "101": {
+    "id": 101,
+    "name": "PK_ESsoll",
+    "type": "analog",
+    "unit": "%"
+  },
+  "102": {
+    "id": 102,
+    "name": "PK_I Es",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "103": {
+    "id": 103,
+    "name": "PK_I Ra",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "104": {
+    "id": 104,
+    "name": "PK_I Aa",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "105": {
+    "id": 105,
+    "name": "PK_I Sr",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "106": {
+    "id": 106,
+    "name": "PK_I Rein",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "107": {
+    "id": 107,
+    "name": "PK_U_Lambda",
+    "type": "analog",
+    "unit": "mV"
+  },
+  "108": {
+    "id": 108,
+    "name": "PK_MWZ Vorl.",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "109": {
+    "id": 109,
+    "name": "PK_MWZ Rueckl.",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "110": {
+    "id": 110,
+    "name": "PK_MWZ Durchf.",
+    "type": "analog",
+    "unit": ""
+  },
+  "111": {
+    "id": 111,
+    "name": "PK_MWZ Leist.",
+    "type": "analog",
+    "unit": "KW"
+  },
+  "112": {
+    "id": 112,
+    "name": "PK_SR motor",
+    "type": "analog",
+    "unit": ""
+  },
+  "113": {
+    "id": 113,
+    "name": "PK_SRpos ist",
+    "type": "analog",
+    "unit": ""
+  },
+  "114": {
+    "id": 114,
+    "name": "PK_SR mode",
+    "type": "analog",
+    "unit": ""
+  },
+  "115": {
+    "id": 115,
+    "name": "PK_UsePos",
+    "type": "analog",
+    "unit": ""
+  },
+  "116": {
+    "id": 116,
+    "name": "PK_UseMotSoll",
+    "type": "analog",
+    "unit": "mm"
+  },
+  "117": {
+    "id": 117,
+    "name": "PK_UseMotIst",
+    "type": "analog",
+    "unit": "mm"
+  },
+  "118": {
+    "id": 118,
+    "name": "PK_Einschubschn. BSZ",
+    "type": "analog",
+    "unit": ""
+  },
+  "119": {
+    "id": 119,
+    "name": "PK_Verbrauchsz\u00e4hler",
+    "type": "analog",
+    "unit": "kg"
+  },
+  "120": {
+    "id": 120,
+    "name": "PK_LZ LB seit Ent.",
+    "type": "analog",
+    "unit": "Min"
+  },
+  "121": {
+    "id": 121,
+    "name": "PK_LZ ES seit F\u00fcll.",
+    "type": "analog",
+    "unit": "Min"
+  },
+  "122": {
+    "id": 122,
+    "name": "PK_Anzahl Entasch.",
+    "type": "analog",
+    "unit": ""
+  },
+  "123": {
+    "id": 123,
+    "name": "PK_Anzahl SR Beweg.",
+    "type": "analog",
+    "unit": ""
+  },
+  "124": {
+    "id": 124,
+    "name": "PK_Lagerstand",
+    "type": "analog",
+    "unit": "kg"
+  },
+  "125": {
+    "id": 125,
+    "name": "PK_Leistung",
+    "type": "analog",
+    "unit": "%"
+  },
+  "126": {
+    "id": 126,
+    "name": "PK_I_Lambda",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "127": {
+    "id": 127,
+    "name": "PK_U_lambda_soll",
+    "type": "analog",
+    "unit": "mV"
+  },
+  "128": {
+    "id": 128,
+    "name": "PK_Zustand",
+    "type": "analog",
+    "unit": ""
+  },
+  "129": {
+    "id": 129,
+    "name": "FW-Anforderung",
+    "type": "analog",
+    "unit": ""
+  },
+  "130": {
+    "id": 130,
+    "name": "Verb-Anforderung",
+    "type": "analog",
+    "unit": ""
+  },
+  "131": {
+    "id": 131,
+    "name": "BSZ_ST_Steuerung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "132": {
+    "id": 132,
+    "name": "BSZ_ST_Heizung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "133": {
+    "id": 133,
+    "name": "BSZ_ST_Volllast",
+    "type": "analog",
+    "unit": "h"
+  },
+  "134": {
+    "id": 134,
+    "name": "BSZ_ST_Teillast",
+    "type": "analog",
+    "unit": "h"
+  },
+  "135": {
+    "id": 135,
+    "name": "BSZ_ST_Z\u00fcndung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "136": {
+    "id": 136,
+    "name": "BSZ_ST_Saugzug",
+    "type": "analog",
+    "unit": "h"
+  },
+  "137": {
+    "id": 137,
+    "name": "BSZ_PK_Heizung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "138": {
+    "id": 138,
+    "name": "BSZ_PK_Z\u00fcndung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "139": {
+    "id": 139,
+    "name": "BSZ_PK_Saugzug",
+    "type": "analog",
+    "unit": "h"
+  },
+  "140": {
+    "id": 140,
+    "name": "BSZ_PK_Austragung",
+    "type": "analog",
+    "unit": "h"
+  },
+  "141": {
+    "id": 141,
+    "name": "HKZustand_A",
+    "type": "analog",
+    "unit": ""
+  },
+  "142": {
+    "id": 142,
+    "name": "HKZustand_1",
+    "type": "analog",
+    "unit": ""
+  },
+  "143": {
+    "id": 143,
+    "name": "HKZustand_2",
+    "type": "analog",
+    "unit": ""
+  },
+  "144": {
+    "id": 144,
+    "name": "HKZustand_3",
+    "type": "analog",
+    "unit": ""
+  },
+  "145": {
+    "id": 145,
+    "name": "HKZustand_4",
+    "type": "analog",
+    "unit": ""
+  },
+  "146": {
+    "id": 146,
+    "name": "HKZustand_5",
+    "type": "analog",
+    "unit": ""
+  },
+  "147": {
+    "id": 147,
+    "name": "HKZustand_6",
+    "type": "analog",
+    "unit": ""
+  },
+  "148": {
+    "id": 148,
+    "name": "BoiZustand_A",
+    "type": "analog",
+    "unit": ""
+  },
+  "149": {
+    "id": 149,
+    "name": "BoiZustand_1",
+    "type": "analog",
+    "unit": ""
+  },
+  "150": {
+    "id": 150,
+    "name": "BoiZustand_2",
+    "type": "analog",
+    "unit": ""
+  },
+  "151": {
+    "id": 151,
+    "name": "BoiZustand_3",
+    "type": "analog",
+    "unit": ""
+  },
+  "152": {
+    "id": 152,
+    "name": "TVG",
+    "type": "analog",
+    "unit": "\u00b0C"
+  },
+  "153": {
+    "id": 153,
+    "name": "PK_UseSoll",
+    "type": "analog",
+    "unit": "mm"
+  },
+  "154": {
+    "id": 154,
+    "name": "PK_UseIst",
+    "type": "analog",
+    "unit": "mm"
+  },
+  "155": {
+    "id": 155,
+    "name": "PK_UseStrom",
+    "type": "analog",
+    "unit": "mA"
+  },
+  "156": {
+    "bits": {
+      "1": {
+        "name": "HKP1"
+      },
+      "2": {
+        "name": "HKP2"
+      },
+      "3": {
+        "name": "M1A"
+      },
+      "4": {
+        "name": "M1Z"
+      },
+      "5": {
+        "name": "M2A"
+      },
+      "6": {
+        "name": "M2Z"
+      },
+      "7": {
+        "name": "Boilanf.1"
+      },
+      "8": {
+        "name": "Lamdaheiz."
+      },
+      "10": {
+        "name": "Z\u00fcndheiz."
+      },
+      "11": {
+        "name": "SLK_auf"
+      },
+      "12": {
+        "name": "SLK_zu"
+      },
+      "13": {
+        "name": "PLK_auf"
+      },
+      "14": {
+        "name": "PLK_zu"
+      }
+    },
+    "id": 0,
+    "type": "digital"
+  },
+  "157": {
+    "bits": {
+      "0": {
+        "name": "STB"
+      },
+      "1": {
+        "name": "TKS"
+      },
+      "2": {
+        "name": "St\u00f6rung"
+      }
+    },
+    "id": 1,
+    "type": "digital"
+  },
+  "158": {
+    "bits": {
+      "0": {
+        "name": "BP1"
+      },
+      "1": {
+        "name": "BP2"
+      },
+      "2": {
+        "name": "BP3"
+      },
+      "3": {
+        "name": "RLm_auf"
+      },
+      "4": {
+        "name": "RLm_zu"
+      },
+      "5": {
+        "name": "Schnellladev."
+      }
+    },
+    "id": 2,
+    "type": "digital"
+  },
+  "159": {
+    "bits": {
+      "0": {
+        "name": "HKP3"
+      },
+      "1": {
+        "name": "HKP4"
+      },
+      "3": {
+        "name": "M3A"
+      },
+      "4": {
+        "name": "M3Z"
+      },
+      "5": {
+        "name": "M4A"
+      },
+      "6": {
+        "name": "M4Z"
+      },
+      "7": {
+        "name": "Boilanf.2"
+      },
+      "8": {
+        "name": "ZP Boi.1"
+      },
+      "9": {
+        "name": "ZP Boi.2"
+      },
+      "10": {
+        "name": "ZP Boi.3"
+      }
+    },
+    "id": 3,
+    "type": "digital"
+  },
+  "160": {
+    "bits": {
+      "0": {
+        "name": "HKP5"
+      },
+      "1": {
+        "name": "HKP6"
+      },
+      "3": {
+        "name": "M5A"
+      },
+      "4": {
+        "name": "M5Z"
+      },
+      "5": {
+        "name": "M6A"
+      },
+      "6": {
+        "name": "M6Z"
+      },
+      "7": {
+        "name": "Boilanf.3"
+      },
+      "11": {
+        "name": "FW Freig."
+      },
+      "12": {
+        "name": "FW Pumpe"
+      },
+      "13": {
+        "name": "FLP"
+      }
+    },
+    "id": 4,
+    "type": "digital"
+  },
+  "161": {
+    "bits": {
+      "0": {
+        "name": "HKPA"
+      },
+      "1": {
+        "name": "MAA"
+      },
+      "2": {
+        "name": "MAZ"
+      },
+      "3": {
+        "name": "BPA"
+      },
+      "4": {
+        "name": "ZP Boi.A"
+      },
+      "5": {
+        "name": "Boilanf.A"
+      }
+    },
+    "id": 5,
+    "type": "digital"
+  },
+  "162": {
+    "bits": {
+      "0": {
+        "name": "PK_L Heiz."
+      },
+      "1": {
+        "name": "PK_Z Heiz."
+      },
+      "2": {
+        "name": "PK_Z Geb."
+      },
+      "5": {
+        "name": "PK_ES Run"
+      },
+      "6": {
+        "name": "PK_ES Dir"
+      },
+      "7": {
+        "name": "PK_AS Saug"
+      },
+      "8": {
+        "name": "PK_AS RA Run"
+      },
+      "9": {
+        "name": "PK_AS RA Dir"
+      },
+      "10": {
+        "name": "PK_Rein En"
+      },
+      "11": {
+        "name": "PK_Rein Run"
+      },
+      "12": {
+        "name": "PK_RLm_auf"
+      },
+      "13": {
+        "name": "PK_RLm_zu"
+      },
+      "14": {
+        "name": "PK_RL Pumpe"
+      }
+    },
+    "id": 6,
+    "type": "digital"
+  },
+  "163": {
+    "bits": {
+      "0": {
+        "name": "gFlP"
+      },
+      "1": {
+        "name": "gFlM auf"
+      },
+      "2": {
+        "name": "gFlM zu"
+      }
+    },
+    "id": 7,
+    "type": "digital"
+  }
+}
