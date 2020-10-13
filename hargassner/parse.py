@@ -1,4 +1,4 @@
-from bitstring import BitString
+# from bitstring import BitString
 
 
 def parse(line, schema):
