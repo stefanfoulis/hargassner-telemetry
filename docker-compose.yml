@@ -3,6 +3,7 @@ version: "3.7"
 services:
   hargassner_telemetry:
     build: "."
+    restart: unless-stopped
     env_file:
       # HEIZKESSEL_HOST
       # MQTT_HOST
