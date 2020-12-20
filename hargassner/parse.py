@@ -35,6 +35,13 @@ def handle_analog_value(value, channel_schema):
 
 
 def handle_digital_value(value, channel_schema):
-    # print(f"handling digital {value}")
-    # bits = BitString(bin=value)
-    return {}
+    binstr = "{0:016b}".format(int(value))
+    result = {}
+    for key, schema in sorted(channel_schema["bits"].items()):
+        name = schema["name"]
+        val = bool(int(binstr[-1*key]))
+        if name in schema:
+            print(f"NAME CLASH! {name} is used as an analog and a digital value!")
+            continue
+        result[schema["name"]] = {"value": val, "unit": "bool"}
+    return result
